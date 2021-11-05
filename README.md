@@ -1,29 +1,5 @@
-Forma sadac sheviyvan saxels da gvars => Startis gilaki
+https://reqres.in/
 
-Kitxvebi=> actiuri kitxva , Next => da bolo kitxvaze submit gilaki
-
-Pasuxis forma sadac gamova chemi archeuli pasuxi swori pasuxi qula
-
-User {
-firstName,
-lastName,
-
-}
-
-answers:[{
-optionIndex:number,
-userAnswerIndex:number
-}]
-
-Question{
-question:string,
-score:number;
-options:[
-{
-label:string,
-
-    }
-
-]
-correctOptionIndex:number;
-}
+//Wamoige GET  /api/users?page=2 es requesti da HTML shi daxate <table> is sashualebit
+//Sheqmeni POST /api/users is sashuaolebit nebismieri useri da consoleshi daloge pasuxi
+//user-detail.service
