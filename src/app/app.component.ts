@@ -25,10 +25,11 @@ export class AppComponent implements AfterViewInit {
     // this.http.get('/api/user').subscribe(() => {
     //   this.logSomething();
     // });
+    
   }
   ngAfterViewInit(): void {}
 
   logSomething() {
-    console.log('DAWERE');
+    console.log('sadasdasdasd');
   }
 }
