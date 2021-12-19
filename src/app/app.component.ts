@@ -15,11 +15,7 @@ import {
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements AfterViewInit {
-  activeStep = 'start';
-
-  user: any;
-
-  answers: string[] = [];
+ 
 
   constructor(private http: HttpClient) {
     // this.http.get('/api/user').subscribe(() => {
@@ -29,7 +25,5 @@ export class AppComponent implements AfterViewInit {
   }
   ngAfterViewInit(): void {}
 
-  logSomething() {
-    console.log('sadasdasdasd');
-  }
+  
 }
