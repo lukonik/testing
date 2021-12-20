@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+@media screen and(min-width: 800px) { 
+    .nav_container{
+       display: flex;
+       justify-content: space-around;
+       width: 100vh;
+    }
+    .fas.fa-bars{
+      display: none;
+    }
+ }
